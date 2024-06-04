@@ -1,0 +1,237 @@
+@charset "UTF-8";
+@font-face
+{
+font-family:"fonte";
+src: url('../fontes/RaspberiePersonalUseOnly.ttf');
+}
+      
+      body#inicial
+{
+      background: url('../imagens/pixel-7272046_640.webp') center no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      font-family: 'fonte';
+  
+}
+      body#segundo
+{
+      background: url('../imagens/12656900.jpg') center no-repeat; 
+      background-size: cover;
+      background-attachment: fixed;
+      font-family: 'fonte';
+} 
+      body#terceiro
+{
+      background: url('../imagens/4000x2000__2PM_Kanagawa_Tokyo.gif') center no-repeat;
+      background-size: cover; 
+      background-attachment: fixed;
+      font-family: 'fonte';
+}         
+      .atividadeimagen img
+{
+      width: 200px;
+      height: 200px;
+} 
+ 
+      section#Menu li
+{
+      display: inline-block;
+      font-size: 22px;  
+}
+      section#Menu li a
+{
+      list-style: none; text-transform: uppercase; 
+      font-family: "fonte", sans-serif;
+      text-align: center;
+      text-shadow: rgb(174, 239, 255)  2px 2px 2px; 
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      position: relative;
+      top: -15px;
+      transition: color 1s, text-shadow 1s;
+}
+      section#Menu li a:hover
+{
+      color: rgb(174, 239, 255) ;
+      text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+}
+      header#cabecalho h1#t1
+
+{
+      text-transform:uppercase;
+      color: #ffffff;
+      text-shadow:rgb(174, 239, 255)  2px 2px 2px;
+      font-family: "fonte", sans-serif;
+      font-size: 60;
+      position: relative;
+      top: 20px;
+
+}
+      section h1
+{
+      text-transform: uppercase;
+      color: #ffffff;
+      text-shadow:#aeefff 2px 2px 2px;
+      font-family: "fonte", sans-serif;  
+      font-size: 30px;      
+}
+      #atividadeiframe
+{
+      width: 400px;
+      height: 250px;
+}
+      #tb
+{
+      font-family: 'fonte';       
+}
+      header#cabecalho
+{
+      background-color: #aeefffaf;
+      border-radius: 25px;
+      margin-left: 25px;
+      margin-right: 25px;
+      margin-bottom: 10px;
+      margin-top: -10px;
+     
+}
+      /* JAVASCRIPT */
+     
+      body#bodyjavascript
+{
+      font-family: 'fonte';
+      background: url("../imagens/jsimg.jpg");
+      color: whitez;
+}  
+      div#interaja
+{
+      background-color: rgb(0, 0, 0);
+      color: white;
+      font-family: "fonte"; font-size: 15px;
+      text-align: center;
+      width: 200px;
+      height: 200px;
+      line-height: 200px;
+}
+
+      /* ATIVIDADE JS */
+
+      header#headerjs
+{
+      color: #ffffff;
+      text-align: center;
+}
+      section#secjs
+{
+      background-color: #ffffff;
+      border-radius: 20px;
+      padding: 20px;
+      width: 400px;
+      margin: auto;
+      box-shadow: rgba(0, 0, 0, 0.600) 5px 5px 5px;
+}
+      div#div1js
+{
+      text-align: center;
+      padding: 5px;
+      margin-bottom: 5px;
+      color: rgb(0, 0, 0);
+}
+      footer#footerjs
+{
+      font-style: italic;
+      text-align: center;
+}
+
+      img#imagen
+{
+      right: 200px;
+      height: 250px;
+      width: 250px;
+}
+      div#div2js
+{
+      text-align: center;
+}
+      #po{text-align: center; color: white;}
+      #poo{text-align: center; border-radius: 15px;  background: white; box-shadow: black 5px 5px 5px;}
+
+/* ATIVIDADE 2 */
+      #h12js
+{
+      color: white;
+      text-align: center;
+}
+      section#seca2js
+{
+      text-align: center;
+      color: rgb(0, 0, 0);
+      background-color: white;
+      border-radius: 20px;
+      box-shadow:rgba(0, 0, 0, 0.844) 5px 5px 5px;
+
+}
+      #div12js
+{
+      text-align: center;
+     
+}
+
+/* ATIVIDADE 2 DO MODULO E*/
+      header#headermoduloe
+{
+      text-align: center;
+      color: white;
+}
+      section#sectionmoduloe      
+{
+      text-align: center;
+      background-color: white;
+      border-radius: 30px;
+      box-shadow: black 5px 5px 5px;
+}
+/* ATIVIDADE 3 DO MODULOP E*/
+
+      header#headeratv3
+{
+      text-align: center;
+      color: white;
+}
+      section#sectionatv3
+{
+      background-color: white;
+      border-radius: 20px;
+      box-shadow: rgba(0, 0, 0, 0.913) 5px 5px 5px;
+      text-align: center;
+}
+
+/* ATIVIDADE FINAL DO CURSO */
+      #atvHF
+{
+      color: white;
+      text-align: center;
+}
+      #atvSF
+{
+      text-align: center;
+      background-color: white;
+      border-radius: 30px;
+      box-shadow: rgba(0, 0, 0, 0.872);
+      box-sizing: 250px 250px;
+}
+      #selectatvf
+{
+      margin-right: 270px;
+}
+      #botaoAnalisar
+{ 
+      position: relative;
+      margin-left: 170px;
+      top: -70px
+}
+      #limp
+{
+      position: relative;
+      top: -118px;
+      right: -200px;
+      
+}

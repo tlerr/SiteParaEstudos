@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>Atividade JS</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../meu css/css.css">
+<script src="../js/javazinhos.js" defer></script>
+</head>
+<body id="bodyjavascript" onload="carregar()">
+<h1>Atividades JS</h1>
+<h2>Todas as Atividades</h2>
+<div id="interaja">Interaje ai</div> 
+    <h1>Atividade - Pais</h1>
+   <h2>
+     vc mora em qual país?
+    <input type="text" name="pergunta" id="pergunta"> 
+    <input type="button" value="vamos ver" id="botao">
+   </h2>
+<div id="resposta"></div>
+    <h1>Atividade - Idade</h1>
+    <h2>
+    Qual a sua idade?  
+    <input type="number" id="idade"> 
+    <input type="button" value="conferir" id="idadebt">
+    </h2>
+<div id="resposta2"></div>
+    <h1>Atividade - Hórario</h1>
+    <h2>
+    Que horas são?
+    <input type="time" id="horas">
+    <input type="button" value="turno" id="horasbt">
+    </h2>
+
+<div id="resposta3"></div>
+    <div id="Atividade"></div>
+<br>
+
+<!--ATIVIDADE-->
+<header id="headerjs">
+<h1>Atividade Do Modulo D</h1> 
+</header>
+<section id="secjs">
+<div id="div1js"> 
+    Opa, olha o Hórario
+</div>
+<div id="div2js">
+    <img id="imagen" src="../imagens/store-7274767_640.webp" alt="fotohorariodia">
+</div> 
+</section>
+
+
+<!--ATIIVDADE 2-->
+<header id="header2js">
+    <h1 id="h12js">ATIVIDADE 2 DO MODULO D</h1>
+</header>
+<section id="seca2js">
+<div id="div12js"><p>Ano de nascimento <input type="number" name="textoano" id="divatv21" min="0"></p>
+<p> Escolha seu sexo:
+    <input type="radio" name="radiosex" id="Masculino">
+    <label for="Masculino">Masculino</label>
+    <input type="radio" name="radiosex" id="Feminino">
+    <label for="Feminino">Feminino</label>
+</p>
+<p> <input type="button" value="Verificar" onclick="verificar2()"></p>
+</div>
+<div id="div22js">Seu resultado será exibido aqui</div>
+</section>
+<footer id="footer2js"></footer>
+<br>
+
+<!-- ATIVIDADE DO MODULO E - ESTRUTURAS DE REPETIÇÕES (DO, WHILE, DO WHILE E FOR)-->
+<header id="po"><h1>ATIVIDADE DO MODULO E</h1></header><section id="poo"><p>Quantas vezes o texto vai ser repetido? <input type="number" id="nmrrep"></p>
+<p>qual texto vai ser repetido? <input type="text" id="textorepetido"></p>
+<p><input type="button" value="Repetir" onclick="repetir()"></p>
+<div id="moc"></div></section>
+
+<!--ATIVIDADE 2 DO MODULO E-->
+<header id="headermoduloe">
+<h1>ATIVIDADE 2 DO MODULO E</h1>
+</header>
+
+<section id="sectionmoduloe">
+    <div id="Atv">Vamos contar</div>
+    <p>Inicio da contagem
+       <input type="number" name="" id="inicio"> 
+    </p>
+    <p>Fim da contagem
+       <input type="number" name="" id="fim"> 
+    </p>
+    <p>Passo
+       <input type="number" name="" id="passo">
+    </p>
+    <p><input type="button" name="botao" value="calcular" id="botao" onclick="caucular()"></p>
+    <div id="resp">sua resposta aparecera aqui</div>
+</section>
+
+<!-- ATIVIDADE 3 MODULO E -->
+<header id="headeratv3">
+    <h1>ATIVIDADE 3 DO MODULO E</h1>
+</header>
+<section id="sectionatv3">
+     <div>Faça a tabuada</div>
+    <div id="div1atv3"><br>Número: <input type="number" id="tabuadaN"> <input type="button" value="Criar a tabuada" onclick="GerarTabuada()"></div>
+    <div id="div2atv3"><select name="selecttabuada" id="select" size="10"></select></div>
+</section>
+
+<!-- ATIVIDADE FINAL -->
+<header id="atvHF">
+       <h1>ATIVIDADE FINAL DO CURSO</h1>
+</header>
+<section id="atvSF">
+<div id="atvD1F">Digite um número qualquer
+<br>
+<input type="number"
+       name="NúmeroR"
+       id="NúmeroR"
+>
+
+<input type="button"
+       value="Adicionar o valor"
+       id="BotaoIniciar"
+       onclick="Adicionar()"
+>
+</div>
+
+<div id="atvD2F">
+<select name="selectatvf" 
+        id="selectatvf"
+        size="5"
+>
+</select>
+</div>
+
+<div>
+<input type="button"
+       value="Analisar" 
+       id="botaoAnalisar"
+       onclick="Analisar()"
+>
+</div>
+
+<!--    
+<div id="limp">
+<input type="button" 
+       value="limpar"
+       id="botaolimpar"
+       onclick="Limpar()"
+>
+</div>
+-->
+
+<div id="result"></div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
