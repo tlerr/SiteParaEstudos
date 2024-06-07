@@ -268,10 +268,10 @@ function GerarTabuada()
 // Variavel em que os números que o usúario adicionou vão ser guardadas
 var Nrecebidos = []
 
-//
+// Oque vai aparecer dentro do select
 var RespSelect = document.getElementById("selectatvf")
 
-
+//Número que o usuario coloca no input
 var NúmeroR = document.getElementById('NúmeroR')
 
 // Ao clicar no botão adicionar a função "Adiconar" é ativada 
@@ -280,6 +280,7 @@ function Adicionar()
 // Oque a função adicionar faz:
 {
   var Nrecebido = NúmeroR.value.trim()
+
 
   if ( Nrecebido === '' || isNaN(Number(Nrecebido)) )
       
@@ -349,10 +350,8 @@ var media = soma / RespSelect.length
   
 }
 
-/*
 function Limpar()
 {
   RespSelect.innerHTML = ""
   Nrecebidos = []
 }
-*/
