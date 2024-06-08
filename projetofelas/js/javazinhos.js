@@ -325,11 +325,11 @@ var maior = copiaNrecebidos[copiaNrecebidos.length -1]
 var soma = 0
 for (var somando = 0; somando<copiaNrecebidos.length; somando++)
 {
- soma += copiaNrecebidos [somando]
+soma += copiaNrecebidos [somando]
 }
 var media = soma / RespSelect.length
 
-  resposta.innerHTML =
+resposta.innerHTML =
 
   `
   Os números avaliados tiveram as seguintes estastisicas:
