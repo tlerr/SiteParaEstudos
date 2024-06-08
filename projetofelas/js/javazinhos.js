@@ -350,10 +350,8 @@ var media = soma / RespSelect.length
   
 }
 
-function Limpar()
+function Limpar()  
 {
-  var RespSelect = document.getElementById("selectatvf")
-  RespSelect.innerHTML = ""
-  Nrecebidos = []
-  document.getElementById('result').innerHTML = ''
+ Nrecebidos = []
+ RespSelect.innerHTML = ''
 }
