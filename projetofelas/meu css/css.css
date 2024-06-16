@@ -7,7 +7,7 @@ src: url('../fontes/RaspberiePersonalUseOnly.ttf');
       
       body#inicial
 {
-      background: url('../imagens/pixel-7272046_640.webp') center no-repeat;
+      background-color: #ffffff;
       background-size: cover;
       background-attachment: fixed;
       font-family: 'fonte';
@@ -32,7 +32,29 @@ src: url('../fontes/RaspberiePersonalUseOnly.ttf');
       width: 200px;
       height: 200px;
 } 
- 
+      section#Menu
+{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 200px;
+      height: 100%;
+      background-color: hsla(0, 100%, 50%, 0.905);
+      box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.625);
+      padding: 5px;
+      box-sizing: border-box;
+      border-radius: 5px 50px 30px 5px;
+}
+      nav#seleções
+{
+      position: fixed;
+      background-color: rgba(255, 0, 0, 0.616);
+      right: 0px;
+      border-radius: 25px;
+      
+      
+}
+
       section#Menu li
 {
       display: inline-block;
@@ -43,7 +65,7 @@ src: url('../fontes/RaspberiePersonalUseOnly.ttf');
       list-style: none; text-transform: uppercase; 
       font-family: "fonte", sans-serif;
       text-align: center;
-      text-shadow: rgb(174, 239, 255)  2px 2px 2px; 
+      text-shadow: rgb(0, 0, 0)  2px 2px 2px; 
       text-decoration: none;
       color: rgb(255, 255, 255);
       position: relative;
@@ -52,8 +74,8 @@ src: url('../fontes/RaspberiePersonalUseOnly.ttf');
 }
       section#Menu li a:hover
 {
-      color: rgb(174, 239, 255) ;
-      text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+      color: rgb(0, 0, 0) ;
+      text-shadow: rgb(255, 0, 0) 2px 2px 2px;
 }
       header#cabecalho h1#t1
 

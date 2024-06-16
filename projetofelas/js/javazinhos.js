@@ -229,7 +229,7 @@ function GerarTabuada()
 {
   var Nrecebido = document.getElementById('tabuadaN').value;
   var tabu = document.getElementById('select')
-  const multiplicador = 1
+  let multiplicador = 1
 
   // Verifica se a entrada é vazia
   if (Nrecebido === "" || Nrecebido == NaN)
@@ -349,9 +349,3 @@ resposta.innerHTML =
   }
   
 }
-
-function Limpar()  
-{
- Nrecebidos = []
- RespSelect.innerHTML = ''
-} 
