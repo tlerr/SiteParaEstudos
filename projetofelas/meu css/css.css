@@ -32,6 +32,9 @@ src: url('../fontes/RaspberiePersonalUseOnly.ttf');
       width: 200px;
       height: 200px;
 } 
+
+/* Página inicial */
+
       section#Menu
 {
       position: fixed;
@@ -49,16 +52,21 @@ src: url('../fontes/RaspberiePersonalUseOnly.ttf');
 {
       position: fixed;
       background-color: rgba(255, 0, 0, 0.616);
-      right: 0px;
       border-radius: 25px;
-      
-      
+      right: 10px;
+      top: 200px;
+      width: 50px;
+      height: 50%;
 }
+
 
       section#Menu li
 {
-      display: inline-block;
-      font-size: 22px;  
+      display: block;
+      font-size: 22px; 
+      margin-top: 100%;
+      margin-left: -20px;
+      
 }
       section#Menu li a
 {
