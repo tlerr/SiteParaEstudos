@@ -1,3 +1,13 @@
+
+var recb = Number(prompt("qual número"))
+var nmr = 1
+
+for (nmr; nmr <= 10; nmr++)
+    {
+    var result = recb * nmr
+    console.log(`${recb} X ${nmr} = ${result}`)
+    }
+
 //iniciando o JS 
  // Aula 9 e 10  - DOM - Document Object Model
 var MFunções = document.getElementById("interaja")

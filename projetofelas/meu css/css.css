@@ -59,6 +59,15 @@ src: url('../fontes/RaspberiePersonalUseOnly.ttf');
       height: 50%;
       box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.625);
 }
+      nav#seleções ul li img
+{
+      width: 20px;
+      height: 20px;
+}
+      nav#seleções ul
+{
+      list-style-type: none;
+}
 
 
       section#Menu li
