@@ -58,18 +58,27 @@ src: url('../fontes/RaspberiePersonalUseOnly.ttf');
       width: 50px;
       height: 50%;
       box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.625);
+      padding: 1px;
 }
       nav#seleções ul li img
 {
+      position: relative;
       width: 20px;
       height: 20px;
+      left: -55px;
+      
 }
-      nav#seleções ul
+      nav#seleções ul li 
 {
       list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      padding: 10;
 }
-
-
+      nav#seleções ul li a
+{     text-decoration: none; /* Remove decoração de texto */
+      padding: 30px; /* Espaçamento interno dos itens */
+}
       section#Menu li
 {
       display: block;
