@@ -4,14 +4,14 @@
 font-family:"fonte";
 src: url('../fontes/RaspberiePersonalUseOnly.ttf');
 }
-      
+
+
       body#inicial
 {
       background-color: #ffffff;
       background-size: cover;
       background-attachment: fixed;
       font-family: 'fonte';
-  
 }
       body#segundo
 {
@@ -43,7 +43,7 @@ src: url('../fontes/RaspberiePersonalUseOnly.ttf');
       width: 200px;
       height: 100%;
       background-color: hsla(0, 100%, 50%, 0.905);
-      box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.625);
+      box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.625);
       padding: 5px;
       box-sizing: border-box;
       border-radius: 5px 50px 30px 5px;
@@ -66,14 +66,18 @@ src: url('../fontes/RaspberiePersonalUseOnly.ttf');
       width: 20px;
       height: 20px;
       left: -55px;
-      
+      transition: filter 1s;
+}
+      nav#seleções ul li img:hover
+{
+      filter: brightness(0) invert(1);
 }
       nav#seleções ul li 
 {
       list-style-type: none;
       display: flex;
       justify-content: space-between;
-      padding: 10;
+      padding: 10
 }
       nav#seleções ul li a
 {     text-decoration: none; /* Remove decoração de texto */
@@ -92,17 +96,17 @@ src: url('../fontes/RaspberiePersonalUseOnly.ttf');
       list-style: none; text-transform: uppercase; 
       font-family: "fonte", sans-serif;
       text-align: center;
-      text-shadow: rgb(0, 0, 0)  2px 2px 2px; 
+      text-shadow: rgba(0, 0, 0, 0.619)  1px 1px 1px; 
       text-decoration: none;
-      color: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
       position: relative;
       top: -15px;
       transition: color 1s, text-shadow 1s;
 }
       section#Menu li a:hover
 {
-      color: rgb(0, 0, 0) ;
-      text-shadow: rgb(255, 0, 0) 2px 2px 2px;
+      color: rgb(255, 255, 255) ;
+      text-shadow: rgb(255, 255, 255) 1px 1px 1px;
 }
       header#cabecalho h1#t1
 
