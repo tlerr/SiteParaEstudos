@@ -86,7 +86,7 @@ else if (horas >= 6 && horas < 11)
 {
 resposta3.innerHTML = "é de manhã";
 }
-else if (horas >11 && horas <= 18)
+else if (horas >=11 && horas <= 18)
 {
 resposta3.innerHTML = "é de tarde";  
 }
