@@ -1,0 +1,156 @@
+@charset "UTF-8";
+@font-face
+{
+font-family:"fonte";
+src: url('../fontes/RaspberiePersonalUseOnly.ttf');
+}
+
+
+      body#inicial
+{
+      background-color: #000000;
+      background-size: cover;
+      background-attachment: fixed;
+      font-family: 'fonte';
+}
+      body#segundo
+{
+      background: url('../imagens/12656900.jpg') center no-repeat; 
+      background-size: cover;
+      background-attachment: fixed;
+      font-family: 'fonte';
+} 
+      body#terceiro
+{
+      background: url('../imagens/4000x2000__2PM_Kanagawa_Tokyo.gif') center no-repeat;
+      background-size: cover; 
+      background-attachment: fixed;
+      font-family: 'fonte';
+}         
+      .atividadeimagen img
+{
+      width: 200px;
+      height: 200px;
+} 
+
+/* Página inicial */
+
+      section#Menu
+{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 200px;
+      height: 100%;
+      background-color: hsla(0, 100%, 50%, 0.905);
+      box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.625);
+      padding: 5px;
+      box-sizing: border-box;
+      border-radius: 5px 50px 30px 5px;
+}
+      nav#seleções
+{
+      position: fixed;
+      background-color: hsla(0, 100%, 50%, 0.905);
+      border-radius: 25px;
+      right: 10px;
+      top: 200px;
+      width: 50px;
+      height: 50%;
+      box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.625);
+      padding: 1px;
+}
+      nav#seleções ul li img
+{
+      position: relative;
+      width: 20px;
+      height: 20px;
+      left: -55px;
+      transition: filter 1s;
+      padding: 30px;
+}
+      nav#seleções ul li img:hover
+{
+      filter: brightness(0) invert(1);
+}
+      nav#seleções ul li 
+{
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      padding: 10
+}
+      section#Menu li
+{
+      display: block;
+      font-size: 20px; 
+      margin-top: 100%;
+      margin-left: -20px;
+      
+}
+      section#Menu li a
+{
+      list-style: none; text-transform: uppercase; 
+      font-family: "fonte", sans-serif;
+      text-align: center;
+      text-shadow: rgba(0, 0, 0, 0.619)  1px 1px 1px; 
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      position: relative;
+      top: -15px;
+      transition: color 1s, text-shadow 1s;
+}
+      section#Menu li a:hover
+{
+      color: rgb(255, 255, 255) ;
+      text-shadow: rgb(255, 255, 255) 1px 1px 1px;
+}
+      header#cabecalho h1#t1
+
+{
+      text-transform:uppercase;
+      color: #ffffff;
+      text-shadow:rgb(174, 239, 255)  2px 2px 2px;
+      font-family: "fonte", sans-serif;
+      font-size: 60;
+      position: relative;
+      top: 20px;
+
+}
+      section h1
+{
+      text-transform: uppercase;
+      color: #ffffff;
+      text-shadow:#aeefff 2px 2px 2px;
+      font-family: "fonte", sans-serif;  
+      font-size: 30px;      
+}
+      #atividadeiframe
+{
+      width: 400px;
+      height: 250px;
+}
+      #tb
+{
+      font-family: 'fonte';       
+}
+      header#cabecalho
+{
+      background-color: #aeefffaf;
+      border-radius: 25px;
+      margin-left: 25px;
+      margin-right: 25px;
+      margin-bottom: 10px;
+      margin-top: -10px;
+} 
+      div#inicio
+{
+text-align: center;
+}   
+
+
+
+
+
+
+

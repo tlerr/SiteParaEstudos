@@ -183,7 +183,7 @@ function verificar2() {
   }
   resultado.innerText = `È um(a) ${genero} de ${idade} anos`
   resultado.appendChild(imgminha)
- }
+}
 }
 
 // MODULO E - ESTRUTURAS DE REPETIÇÃO EM JS
@@ -359,3 +359,9 @@ resposta.innerHTML =
   }
   
 }
+
+document.getElementById("contatos").onclick = function()
+{
+  var estilo = document.getElementById('estilopa');
+  estilo.setAttribute('href', '../Meus css/css pág-contatos.css');
+};

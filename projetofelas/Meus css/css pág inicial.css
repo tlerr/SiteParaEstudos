@@ -67,6 +67,7 @@ src: url('../fontes/RaspberiePersonalUseOnly.ttf');
       height: 20px;
       left: -55px;
       transition: filter 1s;
+      padding: 30px;
 }
       nav#seleções ul li img:hover
 {
@@ -78,10 +79,6 @@ src: url('../fontes/RaspberiePersonalUseOnly.ttf');
       display: flex;
       justify-content: space-between;
       padding: 10
-}
-      nav#seleções ul li a
-{     text-decoration: none; /* Remove decoração de texto */
-      padding: 30px; /* Espaçamento interno dos itens */
 }
       section#Menu li
 {
