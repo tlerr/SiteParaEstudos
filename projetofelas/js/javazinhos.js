@@ -1,4 +1,4 @@
-
+alert("op")
 var recb = Number(prompt("qual número"))
 var nmr = 1
 
@@ -360,8 +360,24 @@ resposta.innerHTML =
   
 }
 
-document.getElementById("contatos").onclick = function()
-{
-  var estilo = document.getElementById('estilopa');
-  estilo.setAttribute('href', '../Meus css/css pág-contatos.css');
-};
+var home = document.getElementById('a');
+var habilidades = document.getElementById('b');
+var projetos = document.getElementById('c');
+var contatos = document.getElementById('d');
+
+// Adiciona um evento de clique a cada item da lista
+home.addEventListener('click', function() {
+  alert('Você clicou em Home!');
+});
+
+habilidades.addEventListener('click', function() {
+  alert('Você clicou em Habilidades!');
+});
+
+projetos.addEventListener('click', function() {
+  alert('Você clicou em Projetos!');
+});
+
+contatos.addEventListener('click', function() {
+  alert('Você clicou em Contatos!');
+});

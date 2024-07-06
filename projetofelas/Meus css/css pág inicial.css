@@ -88,7 +88,7 @@ src: url('../fontes/RaspberiePersonalUseOnly.ttf');
       margin-left: -20px;
       
 }
-      section#Menu li a
+      section#Menu ul li
 {
       list-style: none; text-transform: uppercase; 
       font-family: "fonte", sans-serif;
@@ -99,8 +99,9 @@ src: url('../fontes/RaspberiePersonalUseOnly.ttf');
       position: relative;
       top: -15px;
       transition: color 1s, text-shadow 1s;
+      left: -15px;
 }
-      section#Menu li a:hover
+      section#Menu li:hover
 {
       color: rgb(255, 255, 255) ;
       text-shadow: rgb(255, 255, 255) 1px 1px 1px;
