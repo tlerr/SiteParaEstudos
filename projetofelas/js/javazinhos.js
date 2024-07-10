@@ -1,6 +1,3 @@
-alert("op")
-var recb = Number(prompt("qual número"))
-var nmr = 1
 
 for (nmr; nmr <= 10; nmr++)
     {
@@ -360,10 +357,10 @@ resposta.innerHTML =
   
 }
 
-var home = document.getElementById('a');
-var habilidades = document.getElementById('b');
-var projetos = document.getElementById('c');
-var contatos = document.getElementById('d');
+var home = document.getElementById('imghome');
+var habilidades = document.getElementById('imghabilidades');
+var projetos = document.getElementById('imgprojetos');
+var contatos = document.getElementById('imgcontatos');
 
 // Adiciona um evento de clique a cada item da lista
 home.addEventListener('click', function() {
