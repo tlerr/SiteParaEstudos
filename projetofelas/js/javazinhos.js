@@ -1,5 +1,5 @@
-
-
+nmr = 10
+recb = 5
 for (nmr; nmr <= 10; nmr++)
     {
     var result = recb * nmr
