@@ -9,7 +9,6 @@ document.getElementById("imghome").onclick = function()
   estilo.setAttribute('href', '../Meus css/css pág inicial.css');
 };
 
-
 document.getElementById("imgprojetos").onclick = function()
 {
   var estilo = document.getElementById('estilopa');
