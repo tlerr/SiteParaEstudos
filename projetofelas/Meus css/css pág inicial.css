@@ -42,10 +42,10 @@ src: url('../fontes/RaspberiePersonalUseOnly.ttf');
       width: 200px;
       height: 100%;
       background-color: hsla(0, 100%, 50%, 0.905);
-      box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.625);
+      box-shadow: 7px 5px 10px rgba(0, 0, 0, 0.625);
       padding: 5px;
       box-sizing: border-box;
-      border-radius: 5px 50px 30px 5px;
+      border-radius: 5px 510px 510px 5px;
 }
       nav#seleções
 {
@@ -56,7 +56,7 @@ src: url('../fontes/RaspberiePersonalUseOnly.ttf');
       top: 200px;
       width: 50px;
       height: 50%;
-      box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.625);
+      box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.625);
       padding: 1px;
 }
       nav#seleções ul li img
@@ -84,7 +84,7 @@ src: url('../fontes/RaspberiePersonalUseOnly.ttf');
       display: block;
       font-size: 20px; 
       margin-top: 100%;
-      margin-left: -20px;
+      margin-left: -30px;
       
 }
       section#Menu ul li
@@ -145,7 +145,11 @@ src: url('../fontes/RaspberiePersonalUseOnly.ttf');
 } 
       div#inicio
 {
-text-align: center;
+position: absolute;
+font-size: 11px;
+top: 120px;
+margin-left: 370px;
+
 }   
 
 

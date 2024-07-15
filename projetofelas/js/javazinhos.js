@@ -1,3 +1,5 @@
+// ADICIONA A FUNÇÃO DE CLICK NAS IMAGENS DA PÁGINA INICIAL PARA NAVEGAÇÃO
+
 document.getElementById("imgcontatos").onclick = function() {
   var estilo = document.getElementById('estilopa');
   estilo.setAttribute('href', '../Meus css/css pág contatos.css');
@@ -20,3 +22,4 @@ document.getElementById("imghabilidades").onclick = function()
   var estilo = document.getElementById('estilopa');
   estilo.setAttribute('href', '../Meus css/css pág habilidades.css');
 };
+
