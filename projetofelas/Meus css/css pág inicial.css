@@ -61,6 +61,7 @@ src: url('../fontes/RaspberiePersonalUseOnly.ttf');
 }
       nav#seleções ul li img
 {
+      filter: invert(100%);
       position: relative;
       width: 20px;
       height: 20px;
