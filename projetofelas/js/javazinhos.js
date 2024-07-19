@@ -23,3 +23,20 @@ document.getElementById("imghabilidades").onclick = function()
   estilo.setAttribute('href', '../Meus css/css pág habilidades.css');
 };
 
+
+
+
+
+function trocar(page)
+{
+fetch(page)
+.then(Response => Response.text())
+.then(data => { document.getElementById('content').innerHTML = data;})
+
+.catch(error => console.error('erro ao carregar o conteudo:', error));
+}
+
+document.getElementById('home1').onclick = function() { trocar('Página inicial.html'); };
+document.getElementById('habilidades1').onclick = function() { trocar('Habilidades.html'); };
+document.getElementById('projetos1').onclick = function() { trocar('Projetos.html'); };
+document.getElementById('contatos1').onclick = function() { trocar('Contatos.html'); };

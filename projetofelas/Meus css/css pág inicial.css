@@ -7,7 +7,7 @@ src: url('../fontes/RaspberiePersonalUseOnly.ttf');
 
       body#inicial
 {
-      background: radial-gradient(circle at center, #fbe4d8, #DFB6B2, #854f6c , #522B5B, #2B124C, #190019);
+      background-color: black;       
       background-size: cover;
       background-attachment: fixed;
       font-family: 'fonte';
@@ -41,7 +41,7 @@ src: url('../fontes/RaspberiePersonalUseOnly.ttf');
       left: 0;
       width: 200px;
       height: 100%;
-      background-color:  (#854f6c);
+      background-color:  #ff5e00;
       box-shadow: 7px 5px 10px rgba(0, 0, 0, 0.625);
       padding: 5px;
       box-sizing: border-box;
@@ -50,7 +50,7 @@ src: url('../fontes/RaspberiePersonalUseOnly.ttf');
       nav#seleções
 {
       position: fixed;
-      background-color:  (#854f6c);
+      background-color:  #ff8800;
       border-radius: 25px;
       right: 10px;
       top: 200px;
@@ -103,7 +103,7 @@ src: url('../fontes/RaspberiePersonalUseOnly.ttf');
 }
       section#Menu li:hover
 {
-      color: rgb(255, 255, 255) ;
+      color: rgb(255, 0, 0) ;
       text-shadow: rgb(255, 255, 255) 1px 1px 1px;
 }
       header#cabecalho h1#t1
